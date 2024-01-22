@@ -8,7 +8,12 @@ import 'dart:io';
 void main() {
   print("Enter User Input: ");
   int? userInputNumer = int.parse(stdin.readLineSync()!);
-
   print("Input Number is $userInputNumer");
-  for(var i =0 ; i<=)
+
+  for(var i = 1 ; i<=userInputNumer; i++){
+  if(userInputNumer % i == 0){
+    print(i);
+  }
+  }
+   
 }
